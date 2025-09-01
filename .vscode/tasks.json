@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run CSES solution",
+      "type": "process",
+      "command": "${workspaceFolder}/.vscode/scripts/loop.sh",
+      "args": ["${input:scriptFolder}", "${input:scriptName}"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "panel": "dedicated",
+        "clear": true,
+        "focus": true,
+        "showReuseMessage": false
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "scriptFolder",
+      "type": "pickString",
+      "description": "Problem set topic",
+      "options": ["intro", "sort-and-search"]
+    },
+    {
+      "id": "scriptName",
+      "type": "promptString",
+      "description": "File name without extension"
+    }
+  ]
+}
