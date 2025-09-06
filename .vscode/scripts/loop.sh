@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -u  # still treat unset variables as errors
+set -o pipefail
 
 folder="$1"
 name="$2"
