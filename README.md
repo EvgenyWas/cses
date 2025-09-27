@@ -28,3 +28,9 @@ chmod +x .vscode/scripts/loop.sh
 3. Type your input (multi-line supported), then press Ctrl+D to run the script.
 
 4. After execution, press Enter to rerun or Ctrl+C to quit.
+
+## Remarks
+
+CSES Node.js version support: https://cses.fi/howto/
+
+Set up calling `nvm use` automatically with `.nvmrc` file - https://github.com/nvm-sh/nvm?tab=readme-ov-file#calling-nvm-use-automatically-in-a-directory-with-a-nvmrc-file
