@@ -5,7 +5,7 @@ This repository contains my solutions to the [CSES Problem Set](https://cses.fi/
 ## Structure
 
 - Each problem has its own file, and all solutions are organized into folders by problem set topics.
-- A base template `_template.js` is included, which handles reading from `stdin` and is suitable for direct submission to CSES.
+- Base templates `_template.js` or `_template.py` are included, which handle reading from `stdin` and are suitable for direct submission to CSES.
 
 ## Goals
 
